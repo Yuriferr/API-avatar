@@ -1,6 +1,8 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS
 
 app = Flask(__name__)
+cors = CORS(app)
 
 elementos = [
         {
@@ -275,8 +277,9 @@ elementos = [
         }
     ]
 
-@app.route('/elementos')
+@app.route('/')
 def get_dados():
     return jsonify(elementos)
 
-app.run(port=5000, host="localhost", debug=True)
+if __name__ == "__main__":
+    app.run()
