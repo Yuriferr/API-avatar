@@ -35,23 +35,102 @@
     <section class="container text-center">
       <h1>API de Avatar: A Lenda de Aang</h1>
       <p>Esta é uma API que fornece informações sobre o universo da série animada Avatar: A Lenda de Aang, criada por Bryan Konietzko e Michael Dante DiMartino. A API possui três rotas principais: base, dobras e nações.</p>
+      <p>versão 1.0</p>
 
       <div class="container-fluid my-5">
         <h1>Rota base</h1>
         <p>A rota base é /. Ela retorna um objeto JSON com informações gerais sobre as quatro nações e os personagens principais de cada nação. O formato do objeto é o seguinte:</p>
         <a href="http://avatarapi.pythonanywhere.com" target="_blank">http://avatarapi.pythonanywhere.com</a>
+
+        <p class="mt-5">Exemplo de retorno dos dados da rota base: </p>
+        <pre class="text-start bg-body-tertiary rounded">
+          <code>
+            [
+              {
+                "id": 1,
+                "nome": "Tribo da água",
+                "imagem": "exemple/image/water.png",
+                "personagens": [
+                  {
+                    "id": 1,
+                    "nome": "Katara",
+                    "idade": 14,
+                    "dobra": ["Água", "Sangue", "Gelo"],
+                    "nação": "Tribo da água",
+                    "imagem": "exemple/image/katara.png"
+                  },
+                  {
+                    "id": 2,
+                    "nome": "Sokka",
+                    "idade": 15,
+                    "dobra": ["Nenhuma"],
+                    "nação": "Tribo da água",
+                    "imagem": "exemple/image/sokka.png"
+                  }
+                }
+              ] 
+          </code>
+        </pre>
       </div>
 
       <div class="container-fluid my-5">
         <h1>Rota dobras</h1>
         <p>A rota dobras é /dobras. Ela retorna um objeto JSON com informações sobre os quatro elementos que podem ser dobrados pelos personagens da série: ar, água, terra e fogo. O formato do objeto é o seguinte:</p>
         <a href="http://avatarapi.pythonanywhere.com/dobras" target="_blank">http://avatarapi.pythonanywhere.com/dobras</a>
+
+        <p class="mt-5">Exemplo de retorno dos dados da rota dobras: </p>
+        <pre class="text-start bg-body-tertiary rounded">
+          <code>
+            [
+              {
+                  "id": "1",
+                  "name": "Água",
+                  "description": "Dobra básica do elemento água"
+              },
+              {
+                  "id": "2",
+                  "name": "Terra",
+                  "description": "Dobra básica do elemento terra"
+              },
+              {
+                  "id": "3",
+                  "name": "Fogo",
+                  "description": "Dobra básica do elemento fogo"
+              },
+              {
+                  "id": "4",
+                  "name": "Ar",
+                  "description": "Dobra básica do elemento ar"
+              }
+            ]
+          </code>
+        </pre>
       </div>
 
       <div class="container-fluid my-5">
         <h1>Rota nações</h1>
         <p>A rota nações é /avatar/nacoes. Ela retorna um objeto JSON com informações sobre as quatro nações e as províncias de cada nação. O formato do objeto é o seguinte:</p>
         <a href="http://avatarapi.pythonanywhere.com/nacoes" target="_blank">http://avatarapi.pythonanywhere.com/nacoes</a>
+        
+        <p class="mt-5">Exemplo de retorno dos dados da rota nações: </p>
+        <pre class="text-start bg-body-tertiary rounded">
+          <code>
+            [
+              {
+                  "id": 1,
+                  "name": "Tribo da Água",
+                  "descricao": "A Tribo da Água, que é governada pelos Chefes da Água e tem como símbolo uma lua crescente azul. Sua cultura se baseia na adaptação, na harmonia, na natureza e na espiritualidade. Seus habitantes podem dobrar a água, controlando a água e seus estados com seus movimentos. Eles vivem nos polos norte e sul do mundo e têm uma forte ligação com a Lua e o Oceano.",
+                  "imagem": "exemple/image/water.png",
+                  "provincias": [
+                      {
+                          "id": 1,
+                          "nome": "Tribo da Água do Norte",
+                          "descricao": "A Tribo da Água do Norte, que é a outra tribo que compõe a Tribo da Água. Ela fica localizada no Polo Norte e é formada por uma grande cidade fortificada de gelo. Sua cultura se baseia na dobra de água, na cura e na tradição. É lá que Aang e Katara aprendem a dobrar a água com o Mestre Pakku."
+                      }
+              }
+            ]
+          </code>
+        </pre>
       </div>
     </section>
 
