@@ -1,0 +1,57 @@
+[
+    {
+        "id": "1",
+        "name": "Água",
+        "description": "Dobra básica do elemento água"
+    },
+    {
+        "id": "2",
+        "name": "Terra",
+        "description": "Dobra básica do elemento terra"
+    },
+    {
+        "id": "3",
+        "name": "Fogo",
+        "description": "Dobra básica do elemento fogo"
+    },
+    {
+        "id": "4",
+        "name": "Ar",
+        "description": "Dobra básica do elemento ar"
+    },
+    {
+        "id": "5",
+        "name": "Metal",
+        "description": "Dobra avançada do elemento terra"
+    },
+    {
+        "id": "6",
+        "name": "Lava",
+        "description": "Dobra avançada do elemento terra"
+    },
+    {
+        "id": "7",
+        "name": "Sangue",
+        "description": "Dobra avançada do elemento água"
+    },
+    {
+        "id": "8",
+        "name": "Relâmpago",
+        "description": "Dobra avançada do elemento fogo"
+    },
+    {
+        "id": "9",
+        "name": "Gelo",
+        "description": "Dobra avançada do elemento água"
+    },
+    {
+        "id": "10",
+        "name": "Combustão",
+        "description": "Dobra avançada do elemento fogo"
+    },
+    {
+        "id": "11",
+        "name": "Voo",
+        "description": "Dobra avançada do elemento ar"
+    }
+]
