@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify
 from flask_cors import CORS
 import json
 
@@ -20,6 +20,14 @@ dobras = json.loads(dobras)
 @app.route('/dobras' , methods=['GET'])
 def get_dobras():
     return jsonify(dobras)
+
+nacoes = open("./data/nacoes.json", "r", encoding="utf-8")
+nacoes = nacoes.read()
+nacoes = json.loads(nacoes)
+
+@app.route('/nacoes' , methods=['GET'])
+def get_nacoes():
+    return jsonify(nacoes)
 
 
 if __name__ == "__main__":

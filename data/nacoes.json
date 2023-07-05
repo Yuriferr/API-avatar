@@ -1,0 +1,100 @@
+[
+    {
+        "id": 1,
+        "name": "Tribo da Água",
+        "descricao": "A Tribo da Água, que é governada pelos Chefes da Água e tem como símbolo uma lua crescente azul. Sua cultura se baseia na adaptação, na harmonia, na natureza e na espiritualidade. Seus habitantes podem dobrar a água, controlando a água e seus estados com seus movimentos. Eles vivem nos polos norte e sul do mundo e têm uma forte ligação com a Lua e o Oceano.",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/7/78/Emblema_da_Dobra_de_%C3%81gua.png/revision/latest/scale-to-width-down/30?cb=20161205041741&path-prefix=pt-br",
+        "provincias": [
+            {
+                "id": 1,
+                "nome": "Tribo da Água do Norte",
+                "descricao": "A Tribo da Água do Norte, que é a outra tribo que compõe a Tribo da Água. Ela fica localizada no Polo Norte e é formada por uma grande cidade fortificada de gelo. Sua cultura se baseia na dobra de água, na cura e na tradição. É lá que Aang e Katara aprendem a dobrar a água com o Mestre Pakku."
+            },
+            {
+                "id": 2,
+                "nome": "Tribo da Água do Sul",
+                "descricao": "A Tribo da Água do Sul, que é uma das duas tribos que compõem a Tribo da Água. Ela fica localizada no Polo Sul e é formada por pequenas aldeias de iglus. Sua cultura se baseia na pesca, na caça e na sobrevivência. É de lá que vêm Katara e Sokka, os primeiros amigos de Aang."
+            },
+            {
+                "id": 3,
+                "nome": "Tribo da Água do Pântano",
+                "descricao": "A Tribo da Água do Pântano, que é uma tribo isolada que compõe a Tribo da Água. Ela fica localizada em um pântano no sudoeste do Reino da Terra. Sua cultura se baseia na conexão, na simplicidade e na natureza. Seus habitantes podem dobrar a água das plantas do pântano, criando vinhas e raízes com seus movimentos. É lá que Aang e seus amigos conhecem Huu, Tho e Due, três dobradores de água do pântano que os ajudam a entender a vida no pântano."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Reino da Terra",
+        "descricao": "O Reino da Terra, que é governado pelo Rei da Terra e tem como símbolo um urso panda verde. Sua cultura se baseia na resistência, na estabilidade, na diversidade e na tradição. Seus habitantes podem dobrar a terra, movendo rochas e metais com seus movimentos. Eles vivem em um vasto continente no centro do mundo e resistem à invasão da Nação do Fogo com seus poderosos dobradores de terra.",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/3/3b/Emblema_da_Dobra_de_Terra.png/revision/latest/scale-to-width-down/30?cb=20161205041742&path-prefix=pt-br",
+        "provincias": [
+            {
+                "id": 1,
+                "nome": "Omashu",
+                "descricao": "Omashu, que é um reino governado pelo Rei Bumi, um velho amigo de Aang e um poderoso dobrador de terra. Omashu é uma cidade construída sobre uma montanha, com um sistema de correios baseado em carrinhos que deslizam por trilhos de terra."
+            },
+            {
+                "id": 2,
+                "nome": "Ba Sing Se",
+                "descricao": "Ba Sing Se, que é a capital do Reino da Terra e a maior cidade do mundo. Ela é governada pelo Rei da Terra, mas também tem uma influência secreta da Sociedade da Lótus Branca, uma organização de mestres dobradores que busca restaurar o equilíbrio no mundo. Ba Sing Se é uma cidade dividida em três anéis: o Anel Externo, onde vivem os refugiados e os pobres; o Anel Médio, onde vivem os comerciantes e os artesãos; e o Anel Interno, onde vivem os nobres e o rei."
+            },
+            {
+                "id": 3,
+                "nome": "Ilha Kyoshi",
+                "descricao": "A Ilha Kyoshi, que é uma ilha localizada na costa sul do Reino da Terra. Ela é governada pela líder Kyoshi, uma descendente da Avatar Kyoshi, uma das predecessoras de Aang. Sua cultura se baseia na defesa, na coragem e na igualdade. É lá que vivem as Guerreiras Kyoshi, um grupo de mulheres que usam maquiagem, leques e roupas verdes para homenagear a Avatar Kyoshi."
+            },
+            {
+                "id": 4,
+                "nome": "Gaoling",
+                "descricao": "Gaoling, que é uma cidade conhecida por sediar o torneio subterrâneo de dobra de terra, onde os lutadores competem por dinheiro e fama. É lá que Aang e seus amigos conhecem Toph Beifong, uma jovem cega que domina a dobra de terra como ninguém."
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Nação do Fogo",
+        "descricao": "A Nação do Fogo, que é governada pelo Senhor do Fogo e tem como símbolo um dragão vermelho. Sua cultura se baseia na ambição, na honra, na tecnologia e na militarização. Seus habitantes podem dobrar o fogo, gerando e lançando chamas com seus movimentos. Eles vivem em ilhas vulcânicas no oeste do mundo e iniciaram uma guerra contra as outras nações há cem anos, buscando dominar o mundo.",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/3/3c/Emblema_da_Dobra_de_Fogo.png/revision/latest/scale-to-width-down/30?cb=20161205041743&path-prefix=pt-br",
+        "provincias": [
+            {
+                "id": 1,
+                "nome": "Capital",
+                "descricao": "A Capital, que é a sede do poder da Nação do Fogo e o lar do Senhor do Fogo Ozai, o principal antagonista da série. É lá que acontece o confronto final entre Aang e Ozai, no dia do Cometa Sozin, um evento que aumenta o poder dos dobradores de fogo."
+            },
+            {
+                "id": 2,
+                "nome": "Ilha Ember",
+                "descricao": "A Ilha Ember, que é uma ilha resort onde os cidadãos da Nação do Fogo vão para se divertir e relaxar. É lá que Aang e seus amigos se infiltram para obter informações sobre o plano de Ozai, usando codinomes falsos como Kuzon, Bonzu Pipinpadaloxicopolis III e Wang Fire."
+            },
+            {
+                "id": 3,
+                "nome": "Rocha Fervente",
+                "descricao": "A Rocha Fervente, que é uma prisão de segurança máxima da Nação do Fogo, localizada em um vulcão ativo. É lá que são mantidos os prisioneiros mais perigosos, incluindo alguns dobradores de outros elementos. É lá também que Sokka e Zuko resgatam o pai de Sokka, Hakoda, e outros prisioneiros da Tribo da Água."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Nômades do Ar",
+        "descricao": "Os Nômades do Ar, que são governados pelos Monges do Ar e têm como símbolo um bisão voador amarelo. Sua cultura se baseia na liberdade, na paz, na harmonia e na diversão. Seus habitantes podem dobrar o ar, manipulando o ar e voando com planadores com seus movimentos. Eles viviam em quatro templos nas montanhas ao redor do mundo, mas foram exterminados pela Nação do Fogo há cem anos, restando apenas Aang como o último dobrador de ar.",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/6/61/Emblema_da_Dobra_de_Ar.png/revision/latest/scale-to-width-down/30?cb=20161205042025&path-prefix=pt-br",
+        "provincias": [
+            {
+                "id": 1,
+                "nome": "Templo do Ar do Sul",
+                "descricao": "O Templo do Ar do Sul, que é o templo onde Aang cresceu e foi treinado pelos Monges do Ar, incluindo seu mentor, o Monge Gyatso. É lá que Aang descobre que é o Avatar e que os Nômades do Ar foram exterminados."
+            },
+            {
+                "id": 2,
+                "nome": "Templo do Ar do Norte",
+                "descricao": "O Templo do Ar do Norte, que é o templo onde Aang encontra os Mecanistas, um grupo de refugiados do Reino da Terra que usam a tecnologia para viver no templo. É lá também que Aang conhece Teo, um garoto paraplégico que usa um planador para voar."
+            },
+            {
+                "id": 3,
+                "nome": "Templo do Ar do Oeste",
+                "descricao": "O Templo do Ar do Oeste, que é o templo onde Aang encontra os Guerreiros do Ar, um grupo de dobradores de outros elementos que usam planadores e roupas dos Nômades do Ar para honrar sua cultura. É lá também que Aang conhece a Avatar Yangchen, sua predecessora dobradora de ar."
+            }
+        ]
+    }
+
+]

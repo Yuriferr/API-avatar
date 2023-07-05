@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "nome": "Agua",
         "nações": [
             {
                 "id": 1,
                 "nome": "Tribo da água",
+                "imagem": "https://static.wikia.nocookie.net/avatar/images/7/78/Emblema_da_Dobra_de_%C3%81gua.png/revision/latest/scale-to-width-down/30?cb=20161205041741&path-prefix=pt-br",
                 "personagens": [
                     {
                         "id": 1,
@@ -76,6 +76,7 @@
             {
                 "id": 2,
                 "nome": "Reino da terra",
+                "imagem": "https://static.wikia.nocookie.net/avatar/images/3/3b/Emblema_da_Dobra_de_Terra.png/revision/latest/scale-to-width-down/30?cb=20161205041742&path-prefix=pt-br",
                 "personagens": [
                     {
                         "id": 1,
@@ -146,6 +147,7 @@
             {
                 "id": 3,
                 "nome": "Nação do fogo",
+                "imagem": "https://static.wikia.nocookie.net/avatar/images/3/3c/Emblema_da_Dobra_de_Fogo.png/revision/latest/scale-to-width-down/30?cb=20161205041743&path-prefix=pt-br",
                 "personagens": [
                     {
                         "id": 1,
@@ -248,6 +250,7 @@
             {
                 "id": 4,
                 "nome": "Nômades do ar",
+                "imagem": "https://static.wikia.nocookie.net/avatar/images/6/61/Emblema_da_Dobra_de_Ar.png/revision/latest/scale-to-width-down/30?cb=20161205042025&path-prefix=pt-br",
                 "personagens": [
                     {
                         "id": 1,
