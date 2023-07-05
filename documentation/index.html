@@ -12,59 +12,49 @@
     <title>Documentation</title>
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container-fluid mb-5">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href=""><img src="./images/logo.png" class="me-2"> API Avatar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="https://github.com/Yuriferr/API-avatar" target="_blank">GitHub</a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
     </header>
 
-    <section class="container-fluid">
-      <div class="container-fluid text-center my-5">
-        <h1>Diretorio base</h1>
-        <p>volta os elementos juntamente com as principais nacoes de cada um deles e os personagens correspondentes de cada nacao</p>
+    <section class="container text-center">
+      <h1>API de Avatar: A Lenda de Aang</h1>
+      <p>Esta é uma API que fornece informações sobre o universo da série animada Avatar: A Lenda de Aang, criada por Bryan Konietzko e Michael Dante DiMartino. A API possui três rotas principais: base, dobras e nações.</p>
+
+      <div class="container-fluid my-5">
+        <h1>Rota base</h1>
+        <p>A rota base é /. Ela retorna um objeto JSON com informações gerais sobre as quatro nações e os personagens principais de cada nação. O formato do objeto é o seguinte:</p>
         <a href="http://avatarapi.pythonanywhere.com" target="_blank">http://avatarapi.pythonanywhere.com</a>
       </div>
 
-      <div class="container-fluid text-center my-5">
-        <h1>Diretorio de dobras</h1>
-        <p>Retorna os tipos de dobras de elementos existentes</p>
+      <div class="container-fluid my-5">
+        <h1>Rota dobras</h1>
+        <p>A rota dobras é /dobras. Ela retorna um objeto JSON com informações sobre os quatro elementos que podem ser dobrados pelos personagens da série: ar, água, terra e fogo. O formato do objeto é o seguinte:</p>
         <a href="http://avatarapi.pythonanywhere.com/dobras" target="_blank">http://avatarapi.pythonanywhere.com/dobras</a>
       </div>
+
+      <div class="container-fluid my-5">
+        <h1>Rota nações</h1>
+        <p>A rota nações é /avatar/nacoes. Ela retorna um objeto JSON com informações sobre as quatro nações e as províncias de cada nação. O formato do objeto é o seguinte:</p>
+        <a href="http://avatarapi.pythonanywhere.com/nacoes" target="_blank">http://avatarapi.pythonanywhere.com/nacoes</a>
+      </div>
     </section>
-    
+
     <script src="./script.js"></script>
 </body>
 </html>
