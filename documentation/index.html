@@ -9,11 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-    <title>Documentation</title>
+    <title>API Avatar</title>
 </head>
 <body>
     <header class="container-fluid mb-5">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container-fluid">
               <a class="navbar-brand" href=""><img src="./images/logo.png" class="me-2"> API Avatar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,19 +22,19 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="">Home</a>
+                    <a class="nav-link" href="https://www.linkedin.com/in/yuriferr" target="_blank"><i class="fa-brands fa-linkedin"></i> Yuriferr</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/Yuriferr/API-avatar" target="_blank">GitHub</a>
+                    <a class="nav-link" href="https://github.com/Yuriferr/API-avatar" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
                   </li>
               </div>
             </div>
           </nav>
     </header>
 
-    <section class="container text-center">
-      <h1>API de Avatar: A Lenda de Aang</h1>
-      <p>Esta é uma API que fornece informações sobre o universo da série animada Avatar: A Lenda de Aang, criada por Bryan Konietzko e Michael Dante DiMartino. A API possui três rotas principais: base, dobras e nações.</p>
+    <section class="container text-center bg-light p-5 rounded">
+      <h1 class="mb-5"><img src="./images/logo.png" class="pe-2"> API de Avatar: A Lenda de Aang</h1>
+      <p>API Avatar é uma interface de programação de aplicações que permite aos usuários acessar informações sobre o universo da série animada Avatar: A Lenda de Aang, desenho criado por Michael Dante DiMartino e Bryan Konietzko. A API foi desenvolvida em Python e utiliza o formato JSON para troca de dados.<br> Para usar a API Avatar, os usuários devem enviar requisições HTTP para a URL base da API, seguida da rota desejada e dos parâmetros opcionais.</p>
       <p>versão 1.0</p>
 
       <div class="container-fluid my-5">
@@ -43,7 +43,7 @@
         <a href="http://avatarapi.pythonanywhere.com" target="_blank">http://avatarapi.pythonanywhere.com</a>
 
         <p class="mt-5">Exemplo de retorno dos dados da rota base: </p>
-        <pre class="text-start bg-body-tertiary rounded">
+        <pre class="text-start rounded border">
           <code>
             [
               {
@@ -79,7 +79,7 @@
         <a href="http://avatarapi.pythonanywhere.com/dobras" target="_blank">http://avatarapi.pythonanywhere.com/dobras</a>
 
         <p class="mt-5">Exemplo de retorno dos dados da rota dobras: </p>
-        <pre class="text-start bg-body-tertiary rounded">
+        <pre class="text-start rounded border">
           <code>
             [
               {
@@ -113,7 +113,7 @@
         <a href="http://avatarapi.pythonanywhere.com/nacoes" target="_blank">http://avatarapi.pythonanywhere.com/nacoes</a>
         
         <p class="mt-5">Exemplo de retorno dos dados da rota nações: </p>
-        <pre class="text-start bg-body-tertiary rounded">
+        <pre class="text-start rounded border">
           <code>
             [
               {
@@ -135,5 +135,7 @@
     </section>
 
     <script src="./script.js"></script>
+
+    <script src="https://kit.fontawesome.com/3b592d6d8a.js" crossorigin="anonymous"></script>
 </body>
 </html>

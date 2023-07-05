@@ -5,7 +5,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/1096821782591311992/1126214925098950769/yuriferr_rpg_map_style_2dc2e160-bf47-448e-a9da-c92f22e4d553.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    backdrop-filter: blur(15px);
+}
+
 header img{
     width: 25px;
     height: 25px;
+}
+
+section img{
+    width: 50px;
+    height: auto;
 }
