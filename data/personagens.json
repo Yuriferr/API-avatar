@@ -1,0 +1,304 @@
+[
+    {
+        "id": 1,
+        "nome": "Aang",
+        "idade": "112",
+        "nacao": "Nomades do Ar",
+        "avatar": true,
+        "dobras": ["ar", "água", "terra", "fogo"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/c/ce/Aang.png/revision/latest?cb=20161129194603&path-prefix=pt-br"
+    },
+    {
+        "id": 2,
+        "nome": "Katara",
+        "idade": "14",
+        "nacao": "Tribo da Água",
+        "avatar": false,
+        "dobras": ["água"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/a/ae/Katara_angry.png/revision/latest/thumbnail/width/360/height/360?cb=20180201153043&path-prefix=pt-br"
+    },
+    {
+        "id": 3,
+        "nome": "Sokka",
+        "idade": "15",
+        "nacao": "Tribo da Água",
+        "avatar": false,
+        "dobras": ["nenhuma"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/c/cc/Sokka.png/revision/latest?cb=20150323230403&path-prefix=es"
+    },
+    {
+        "id": 4,
+        "nome": "Toph",
+        "idade": "12",
+        "nacao": "Reino da Terra",
+        "avatar": false,
+        "dobras": ["terra"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/4/46/Toph_Beifong.png/revision/latest?cb=20141021174750&path-prefix=pt-br"
+    },
+    {
+        "id": 5,
+        "nome": "Zuko",
+        "idade": "16",
+        "nacao": "Nação do Fogo",
+        "avatar": false,
+        "dobras": ["fogo"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/4/4b/Zuko.png/revision/latest?cb=20161201224025&path-prefix=pt-br"
+    },
+    {
+        "id": 6,
+        "nome": "Iroh",
+        "idade": "60",
+        "nacao": "Nação do Fogo",
+        "avatar": false,
+        "dobras": ["fogo"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/c/c1/Iroh_smiling.png/revision/latest?cb=20171117222711&path-prefix=pt-br"
+    },
+    {
+        "id": 7,
+        "nome": "Azula",
+        "idade": "14",
+        "nacao": "Nação do Fogo",
+        "avatar": false,
+        "dobras": ["fogo"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/1/12/Azula.png/revision/latest?cb=20141020182710&path-prefix=pt-br"
+    },
+    {
+        "id": 8,
+        "nome": "Suki",
+        "idade": "15",
+        "nacao": "Reino da Terra",
+        "avatar": false,
+        "dobras": ["nenhuma"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/1/14/Suki.png/revision/latest?cb=20190826212443&path-prefix=pt-br"
+    },
+    {
+        "id": 9,
+        "nome": "Momo",
+        "idade": "2",
+        "nacao": "Nenhuma",
+        "avatar": false,
+        "dobras": ["nenhuma"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/8/80/Momo_staring.png/revision/latest?cb=20200802080013"
+    },
+    {
+        "id": 10,
+        "nome": "Appa",
+        "idade": "2",
+        "nacao": "Nenhuma",
+        "avatar": false,
+        "dobras": ["ar"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/a/a8/Appa_voando.png/revision/latest?cb=20161201223012&path-prefix=pt-br"
+    },
+    {
+        "id": 11,
+        "nome": "Roku",
+        "idade": "70",
+        "nacao": "Nação do Fogo",
+        "avatar": true,
+        "dobras": ["ar", "água", "terra", "fogo"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/f/f6/Roku.png/revision/latest?cb=20220323130414"
+    },
+    {
+        "id": 12,
+        "nome": "Kyoshi",
+        "idade": "230",
+        "nacao": "Tribo Kyoshi",
+        "avatar": true,
+        "dobras": ["ar", "água", "terra", "fogo"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/0/07/Avatar_Kyoshi.png/revision/latest?cb=20161213011424&path-prefix=pt-br"
+    },
+    {
+        "id": 13,
+        "nome": "Kuruk",
+        "idade": "33",
+        "nacao": "Tribo da Água do Norte",
+        "avatar": true,
+        "dobras": ["ar", "água", "terra", "fogo"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/d/d1/Kuruk.png/revision/latest?cb=20170516221003&path-prefix=pt-br"
+    },
+    {
+        "id": 14,
+        "nome": "Yangchen",
+        "idade": "230",
+        "nacao": "Nômades do Ar",
+        "avatar": true,
+        "dobras": ["ar", "água", "terra", "fogo"],
+        "foto": "https://static.wikia.nocookie.net/avatar/images/d/db/Yangchen.png/revision/latest?cb=20161202181004&path-prefix=pt-br"
+    },
+    {
+        "id": 15,
+        "nome": "Hakoda",
+        "idade": 40,
+        "dobra": ["Nenhuma"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/4/4e/Hakoda_smiling.png/revision/latest?cb=20201220143258"
+      },
+      {
+        "id": 16,
+        "nome": "Hama",
+        "idade": 60,
+        "dobra": ["água"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/9/97/Hama_Sinistra.png/revision/latest?cb=20200924012523&path-prefix=pt-br"
+      },
+      {
+        "id": 17,
+        "nome": "Yue",
+        "idade": 16,
+        "dobra": ["Nenhuma"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/9/9d/Kind_Yue.png/revision/latest?cb=20190826212512&path-prefix=pt-br"
+      },
+      {
+        "id": 18,
+        "nome": "Pakku",
+        "idade": 60,
+        "dobra": ["água"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/b/bb/Pakku_looking_smug.png/revision/latest?cb=20140119164142"
+      },
+      {
+        "id": 19,
+        "nome": "Kanna",
+        "idade": 80,
+        "dobra": ["Nenhuma"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/4/47/Kanna.png/revision/latest?cb=20130822224809"
+      },
+      {
+        "id": 20,
+        "nome": "Arnook",
+        "idade": 60,
+        "dobra": ["Nenhuma"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/0/0c/Chief.png/revision/latest?cb=20140122221730"
+      },
+      {
+        "id": 21,
+        "nome": "Hahn",
+        "idade": 18,
+        "dobra": ["Nenhuma"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/4/46/Hahn.png/revision/latest?cb=20140122221732"
+      },
+      {
+        "id": 22,
+        "nome": "Bato",
+        "idade": 40,
+        "dobra": ["Nenhuma"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/e/e3/Bato_smiling.png/revision/latest?cb=20130626122901"
+      },
+      {
+        "id": 23,
+        "nome": "Huu",
+        "idade": 50,
+        "dobra": ["água"],
+        "nação": "Tribo da água",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/8/85/Huu.png/revision/latest?cb=20130630224726"
+      },
+      {
+        "id": 24,
+        "nome": "Thod",
+        "idade": 30,
+        "dobra": ["água"],
+        "nação": "Tribo da água",
+        "imagem": "foto"
+      },
+      {
+        "id": 25,
+        "nome": "Pipsqueak",
+        "idade": 15,
+        "dobra": ["Nenhuma"],
+        "nação": "Reino da terra",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/e/ef/Pipsqueak.png/revision/latest?cb=20130706005357"
+      },
+      {
+        "id": 26,
+        "nome": "The Duke",
+        "idade": 15,
+        "dobra": ["Nenhuma"],
+        "nação": "Reino da terra",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/c/cd/The_Duke.png/revision/latest?cb=20130706011726"
+      },
+      {
+        "id": 27,
+        "nome": "Haru",
+        "idade": 16,
+        "dobra": ["terra"],
+        "nação": "Reino da terra",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/d/da/Haru.png/revision/latest?cb=20110104010244"
+      },
+      {
+        "id": 28,
+        "nome": "Tyro",
+        "idade": 40,
+        "dobra": ["terra"],
+        "nação": "Reino da terra",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/8/88/Tyro_during_the_invasion.png/revision/latest?cb=20130609164844"
+      },
+      {
+        "id": 29,
+        "nome": "Oyaji",
+        "idade": 60,
+        "dobra": ["terra"],
+        "nação": "Reino da terra",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/4/42/Oyaji.png/revision/latest/thumbnail/width/360/height/360?cb=20130819103514"
+      },
+      {
+        "id": 30,
+        "nome": "Sud",
+        "idade": 40,
+        "dobra": ["terra"],
+        "nação": "Reino da terra",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/d/d1/Sud.png/revision/latest?cb=20130110111840"
+      },
+      {
+        "id": 31,
+        "nome": "The Boulder",
+        "idade": 30,
+        "dobra": ["terra"],
+        "nação": "Reino da terra",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/7/70/The_Boulder.png/revision/latest?cb=20140317195145"
+      },
+      {
+        "id": 32,
+        "nome": "The Big Bad Hippo",
+        "idade": 30,
+        "dobra": ["terra"],
+        "nação": "Reino da terra",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/d/df/The_Big_Bad_Hippo.png/revision/latest?cb=20140317211139"
+      },
+      {
+        "id": 33,
+        "nome": "Ozai",
+        "idade": 40,
+        "dobra": ["fogo"],
+        "nação": "Nação do fogo",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/4/4a/Ozai.png/revision/latest?cb=20130612170743"
+      },
+      {
+        "id": 34,
+        "nome": "Mai",
+        "idade": 15,
+        "dobra": ["Nenhuma"],
+        "nação": "Nação do fogo",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/4/40/Mai.png/revision/latest?cb=20200913172821&path-prefix=pt-br"
+      },
+      {
+        "id": 35,
+        "nome": "Ty Lee",
+        "idade": 15,
+        "dobra": ["Nenhuma"],
+        "nação": "Nação do fogo",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/6/6d/Ty_Lee.png/revision/latest/thumbnail/width/360/height/360?cb=20140905083814"
+      },
+      {
+        "id": 36,
+        "nome": "Ursa",
+        "idade": 40,
+        "dobra": ["Nenhuma"],
+        "nação": "Nação do fogo",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/a/a6/Ursa.png/revision/latest?cb=20140331143655"
+      }
+]

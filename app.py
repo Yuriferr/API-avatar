@@ -29,6 +29,14 @@ nacoes = json.loads(nacoes)
 def get_nacoes():
     return jsonify(nacoes)
 
+personagens = open("./data/personagens.json", "r", encoding="utf-8")
+personagens = personagens.read()
+personagens = json.loads(personagens)
+
+@app.route('/personagens' , methods=['GET'])
+def get_personagens():
+    return jsonify(personagens)
+
 
 if __name__ == "__main__":
     app.run()
