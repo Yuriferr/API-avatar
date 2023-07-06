@@ -1,51 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
 
-    <link rel="icon" type="image/png" href="./images/logo.png"/>
-    <title>API Avatar</title>
+  <link rel="icon" type="image/png" href="./images/logo.png" />
+  <title>API Avatar</title>
 </head>
+
 <body>
-    <header class="container-fluid mb-5">
-        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href=""><img src="./images/logo.png" class="me-2"> API Avatar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://www.linkedin.com/in/yuriferr" target="_blank"><i class="fa-brands fa-linkedin"></i> Yuriferr</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/Yuriferr/API-avatar" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
-                  </li>
-              </div>
-            </div>
-          </nav>
-    </header>
+  <header class="container-fluid mb-5">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href=""><img src="./images/logo.png" class="me-2"> API Avatar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/yuriferr" target="_blank"><i
+                  class="fa-brands fa-linkedin"></i> Yuriferr</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/Yuriferr/API-avatar" target="_blank"><i
+                  class="fa-brands fa-github"></i> GitHub</a>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-    <section class="container text-center bg-light p-5 rounded">
-      <h1 class="mb-5"><img src="./images/logo.png" class="pe-2"> API de Avatar: A Lenda de Aang</h1>
-      <p>API Avatar é uma interface de programação de aplicações que permite aos usuários acessar informações sobre o universo da série animada Avatar: A Lenda de Aang, desenho criado por Michael Dante DiMartino e Bryan Konietzko. A API foi desenvolvida em Python e utiliza o formato JSON para troca de dados.<br> Para usar a API Avatar, os usuários devem enviar requisições HTTP para a URL base da API, seguida da rota desejada e dos parâmetros opcionais.</p>
-      <p>versão 1.0</p>
 
-      <div class="container-fluid my-5">
-        <h1>Rota base</h1>
-        <p>A rota base é /. Ela retorna um objeto JSON com informações gerais sobre as quatro nações e os personagens principais de cada nação. O formato do objeto é o seguinte:</p>
-        <a href="http://avatarapi.pythonanywhere.com" target="_blank">http://avatarapi.pythonanywhere.com</a>
+  <section class="container text-center bg-light p-5 rounded">
+    <h1 class="mb-5"><img src="./images/logo.png" class="pe-2"> API de Avatar: A Lenda de Aang</h1>
+    <p>API Avatar é uma interface de programação de aplicações que permite aos usuários acessar informações sobre o
+      universo da série animada Avatar: A Lenda de Aang, desenho criado por Michael Dante DiMartino e Bryan Konietzko. A
+      API foi desenvolvida em Python e utiliza o formato JSON para troca de dados.<br> Para usar a API Avatar, os
+      usuários devem enviar requisições HTTP para a URL base da API, seguida da rota desejada e dos parâmetros
+      opcionais.</p>
+    <p>versão 1.0</p>
 
-        <p class="mt-5">Exemplo de retorno dos dados da rota base: </p>
-        <pre class="text-start rounded border">
-          <code>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            Rota base
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>A rota base é /. Ela retorna um objeto JSON com informações gerais sobre as quatro nações e os
+              personagens principais de cada nação. O formato do objeto é o seguinte:</p>
+            <a href="http://avatarapi.pythonanywhere.com" target="_blank">http://avatarapi.pythonanywhere.com</a>
+
+            <p class="mt-5">Exemplo de retorno dos dados da rota base: </p>
+            <pre class="text-start rounded border">
             [
               {
                 "id": 1,
@@ -70,18 +91,30 @@
                   }
                 }
               ] 
+              ] 
+          </code>
+              ]
           </code>
         </pre>
+          </div>
+        </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Rota dobras
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>A rota dobras é /dobras. Ela retorna um objeto JSON com informações sobre os quatro elementos que podem
+              ser dobrados pelos personagens da série: ar, água, terra e fogo. O formato do objeto é o seguinte:</p>
+            <a href="http://avatarapi.pythonanywhere.com/dobras"
+              target="_blank">http://avatarapi.pythonanywhere.com/dobras</a>
 
-      <div class="container-fluid my-5">
-        <h1>Rota dobras</h1>
-        <p>A rota dobras é /dobras. Ela retorna um objeto JSON com informações sobre os quatro elementos que podem ser dobrados pelos personagens da série: ar, água, terra e fogo. O formato do objeto é o seguinte:</p>
-        <a href="http://avatarapi.pythonanywhere.com/dobras" target="_blank">http://avatarapi.pythonanywhere.com/dobras</a>
-
-        <p class="mt-5">Exemplo de retorno dos dados da rota dobras: </p>
-        <pre class="text-start rounded border">
-          <code>
+            <p class="mt-5">Exemplo de retorno dos dados da rota dobras: </p>
+            <pre class="text-start rounded border">
             [
               {
                   "id": "1",
@@ -104,18 +137,26 @@
                   "description": "Dobra básica do elemento ar"
               }
             ]
-          </code>
         </pre>
+          </div>
+        </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Rota nações
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>A rota nações é /avatar/nacoes. Ela retorna um objeto JSON com informações sobre as quatro nações e as
+              províncias de cada nação. O formato do objeto é o seguinte:</p>
+            <a href="http://avatarapi.pythonanywhere.com/nacoes"
+              target="_blank">http://avatarapi.pythonanywhere.com/nacoes</a>
 
-      <div class="container-fluid my-5">
-        <h1>Rota nações</h1>
-        <p>A rota nações é /avatar/nacoes. Ela retorna um objeto JSON com informações sobre as quatro nações e as províncias de cada nação. O formato do objeto é o seguinte:</p>
-        <a href="http://avatarapi.pythonanywhere.com/nacoes" target="_blank">http://avatarapi.pythonanywhere.com/nacoes</a>
-        
-        <p class="mt-5">Exemplo de retorno dos dados da rota nações: </p>
-        <pre class="text-start rounded border">
-          <code>
+            <p class="mt-5">Exemplo de retorno dos dados da rota nações: </p>
+            <pre class="text-start rounded border">
             [
               {
                   "id": 1,
@@ -130,13 +171,16 @@
                       }
               }
             ]
-          </code>
-        </pre>
+            </pre>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <script src="./script.js"></script>
+  <script src="./script.js"></script>
 
-    <script src="https://kit.fontawesome.com/3b592d6d8a.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/3b592d6d8a.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
