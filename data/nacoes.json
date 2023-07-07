@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Tribo da Água",
         "descricao": "A Tribo da Água, que é governada pelos Chefes da Água e tem como símbolo uma lua crescente azul. Sua cultura se baseia na adaptação, na harmonia, na natureza e na espiritualidade. Seus habitantes podem dobrar a água, controlando a água e seus estados com seus movimentos. Eles vivem nos polos norte e sul do mundo e têm uma forte ligação com a Lua e o Oceano.",
-        "imagem": "https://static.wikia.nocookie.net/avatar/images/7/78/Emblema_da_Dobra_de_%C3%81gua.png/revision/latest/scale-to-width-down/30?cb=20161205041741&path-prefix=pt-br",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/7/78/Emblema_da_Dobra_de_%C3%81gua.png",
         "provincias": [
             {
                 "id": 1,
@@ -26,7 +26,7 @@
         "id": 2,
         "name": "Reino da Terra",
         "descricao": "O Reino da Terra, que é governado pelo Rei da Terra e tem como símbolo um urso panda verde. Sua cultura se baseia na resistência, na estabilidade, na diversidade e na tradição. Seus habitantes podem dobrar a terra, movendo rochas e metais com seus movimentos. Eles vivem em um vasto continente no centro do mundo e resistem à invasão da Nação do Fogo com seus poderosos dobradores de terra.",
-        "imagem": "https://static.wikia.nocookie.net/avatar/images/3/3b/Emblema_da_Dobra_de_Terra.png/revision/latest/scale-to-width-down/30?cb=20161205041742&path-prefix=pt-br",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/3/3b/Emblema_da_Dobra_de_Terra.png",
         "provincias": [
             {
                 "id": 1,
@@ -54,7 +54,7 @@
         "id": 3,
         "name": "Nação do Fogo",
         "descricao": "A Nação do Fogo, que é governada pelo Senhor do Fogo e tem como símbolo um dragão vermelho. Sua cultura se baseia na ambição, na honra, na tecnologia e na militarização. Seus habitantes podem dobrar o fogo, gerando e lançando chamas com seus movimentos. Eles vivem em ilhas vulcânicas no oeste do mundo e iniciaram uma guerra contra as outras nações há cem anos, buscando dominar o mundo.",
-        "imagem": "https://static.wikia.nocookie.net/avatar/images/3/3c/Emblema_da_Dobra_de_Fogo.png/revision/latest/scale-to-width-down/30?cb=20161205041743&path-prefix=pt-br",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/3/3c/Emblema_da_Dobra_de_Fogo.png",
         "provincias": [
             {
                 "id": 1,
@@ -77,7 +77,7 @@
         "id": 4,
         "name": "Nômades do Ar",
         "descricao": "Os Nômades do Ar, que são governados pelos Monges do Ar e têm como símbolo um bisão voador amarelo. Sua cultura se baseia na liberdade, na paz, na harmonia e na diversão. Seus habitantes podem dobrar o ar, manipulando o ar e voando com planadores com seus movimentos. Eles viviam em quatro templos nas montanhas ao redor do mundo, mas foram exterminados pela Nação do Fogo há cem anos, restando apenas Aang como o último dobrador de ar.",
-        "imagem": "https://static.wikia.nocookie.net/avatar/images/6/61/Emblema_da_Dobra_de_Ar.png/revision/latest/scale-to-width-down/30?cb=20161205042025&path-prefix=pt-br",
+        "imagem": "https://static.wikia.nocookie.net/avatar/images/6/61/Emblema_da_Dobra_de_Ar.png",
         "provincias": [
             {
                 "id": 1,
